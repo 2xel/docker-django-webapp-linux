@@ -10,7 +10,7 @@ resources:
 
 variables:
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: '00163645-b467-4005-ba1a-70eec5a79b68'
+  dockerRegistryServiceConnection: 'devgrmspaceregistry'
   imageRepository: 'xeldockerdjangowebapplinux'
   containerRegistry: 'devgrmspaceregistry.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
